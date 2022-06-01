@@ -55,8 +55,8 @@ A Hopular block stores two types of data:
 - the whole training set
 - the embedded input sample
 
-The stored training set enables to find similarities across feature vectors and target vectors, while
-the stored embedded input sample enables to determine dependencies between features and targets.
+The stored training set enables Hopular to find similarities across feature vectors and target vectors, while
+the stored embedded input sample enables Hopular to determine dependencies between features and targets.
 
 In real world, small-sized and medium-sized tabular datasets with less than 10,000 samples are ubiquitous.
 Hitherto, Deep Learning underperformed on such datasets.
@@ -84,9 +84,9 @@ Gradient Boosting methods like XGBoost have the edge over other methods on most 
 In real world, small-sized and medium-sized tabular datasets with less than 10,000 samples are ubiquitous.
 Their omnipresence can be witnessed at Kaggle challenges.
 They are found in life sciences for:
-- modelling certain diseases
+- modeling certain diseases
 - predicting bio-assay outcomes in drug design
-- modelling environmental soil contamination
+- modeling environmental soil contamination
 
 They are also found in most industrial applications for:
 - predicting customer behavior
@@ -116,7 +116,7 @@ Algorithm 1 shows the forward pass of Hopular for an original input sample $$\Bx
 A categorical feature is encoded as a one-hot vector while a continuous feature is standardized.
 The feature value, feature type, and feature position are all mapped to an $$e$$-dimensional embedding space.
 All three embedding vectors are summed to a feature representation.
-The input sample is represented by $$\By$$, which is the concatenation of all of the input sample's feature representations. The current prediction $$\Bxi$$ is initialized by $$\By$$.
+The input sample is represented by $$\By$$, which is the concatenation of all the input sample's feature representations. The current prediction $$\Bxi$$ is initialized by $$\By$$.
 
 {:refdef: style="text-align:center;"}
 ![not found](/assets/hopular_embedding.svg){:width="100%"}
@@ -408,8 +408,6 @@ Modern Hopfield networks for Deep Learning architectures [Ramsauer et al., 2021]
 
 - [Paper: Hopular: Modern Hopfield Networks for Tabular Data][arxiv-paper]
 
-
-
 ## Additional Material <a name="material"></a>
 
 - [Paper: Hopfield Networks is All You Need][ramsauer:21-paper]
@@ -446,7 +444,7 @@ Please contact us via schaefl[at]ml.jku.at
 [github-repo]: https://github.com/ml-jku/hopular
 
 [ml-blog-hopfield]: https://ml-jku.github.io/hopfield-layers/
-[ml-blog-performer]: https://ml-jku.github.io/blog-post-performer/
+[ml-blog-performer]: https://iclr-blog-track.github.io/2022/03/25/Looking-at-the-Performer-from-a-Hopfield-point-of-view/
 [github-hopfield]: https://github.com/ml-jku/hopfield-layers
 [kilcher-hopfield]: https://www.youtube.com/watch?v=nv6oFDp6rNQ
 
