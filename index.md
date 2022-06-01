@@ -47,9 +47,9 @@ Hopular is novel as it provides the original training set and the original input
 at each of its layers. Therefore, Hopular refines the current prediction at every
 layer by re-accessing the original training set like standard iterative learning algorithms.
 
-{:refdef: style="text-align:center;width:100%"}
-![not found](/assets/hopular_overview.svg)
-{: refdef}
+{:refdef: style="text-align:center;"}
+![not found](/assets/hopular_overview.svg){:width="100%"}
+{:refdef}
 
 A Hopular block stores two types of data:
 - the whole training set
@@ -107,8 +107,8 @@ of:
 
 Algorithm 1 shows the forward pass of Hopular for an original input sample $$\Bx$$.
 
-{:refdef: style="text-align:center;width:100%"}
-![not found](/assets/hopular_pseudocode.svg)
+{:refdef: style="text-align:center;"}
+![not found](/assets/hopular_pseudocode.svg){:width="100%"}
 {: refdef}
 
 ### Input Layer: Embedding of the Input Sample <a name="embedding"></a>
@@ -118,8 +118,8 @@ The feature value, feature type, and feature position are all mapped to an $$e$$
 All three embedding vectors are summed to a feature representation.
 The input sample is represented by $$\By$$, which is the concatenation of all of the input sample's feature representations. The current prediction $$\Bxi$$ is initialized by $$\By$$.
 
-{:refdef: style="text-align:center;width:100%"}
-![not found](/assets/hopular_embedding.svg)
+{:refdef: style="text-align:center;"}
+![not found](/assets/hopular_embedding.svg){:width="100%"}
 {: refdef}
 
 The central component of the Hopular architecture is the Hopular block.
@@ -198,8 +198,8 @@ The results of each Hopfield module are
 combined via a residual connection with the current prediction $$\Bxi$$ (or its reshaped version $$\BXi$$ for $$H_{f}$$) and thereby refining it.
 The current prediction $$\Bxi$$ is passed by the aggregation block to the next layer.
 
-{:refdef: style="text-align:center;width:100%"}
-![not found](/assets/hopular_block.svg)
+{:refdef: style="text-align:center;"}
+![not found](/assets/hopular_block.svg){:width="100%"}
 {: refdef}
  
 The last layer of a Hopular architecture
@@ -217,8 +217,8 @@ The current prediction is mapped to the final prediction
 by separately mapping each current feature prediction to the corresponding final prediction
 as well as mapping the current target prediction to the final target prediction.
 
-{:refdef: style="text-align:center;width:100%"}
-![not found](/assets/hopular_summarization.svg)
+{:refdef: style="text-align:center;"}
+![not found](/assets/hopular_summarization.svg){:width="100%"}
 {: refdef}
 
 ## Hopular Intuition: Mimicking Iterative Learning <a name="intuition"></a>
@@ -350,8 +350,8 @@ Across the considered UCI repository datasets
 Hopular has the lowest median rank.
 Therefore, <i>Hopular is the best performing method.</i>
 
-{:refdef: style="text-align:center;width:100%"}
-![not found](/assets/hopular_uci_results.svg)
+{:refdef: style="text-align:center;"}
+![not found](/assets/hopular_uci_results.svg){:width="100%"}
 {: refdef}
 
 ### Medium-Sized Tabular Datasets
@@ -377,8 +377,8 @@ CatBoost and LightGBM of 2.5 and 2, respectively, and Hopular has a median rank 
 <i>On average over all 6 datasets, Hopular performs better than 
 NPTs, XGBoost, CatBoost, and LightGBM.</i>
 
-{:refdef: style="text-align:center;width:100%"}
-![not found](/assets/hopular_medium_results.svg)
+{:refdef: style="text-align:center;"}
+![not found](/assets/hopular_medium_results.svg){:width="100%"}
 {: refdef}
 
 ## Recap: Modern Hopfield networks
