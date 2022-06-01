@@ -434,7 +434,7 @@ This blog post was written by Bernhard Schäfl and Lukas Gruber.
 
 Contributions by Angela Bitto-Nemling and Sepp Hochreiter.
 
-Please contact us via hopular[at]ml.jku.at
+Please contact us via schaefl[at]ml.jku.at
 
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
@@ -442,8 +442,8 @@ Please contact us via hopular[at]ml.jku.at
 [jekyll-talk]: https://talk.jekyllrb.com/
 
 [ml-blog]: https://ml-jku.github.io
-[arxiv-paper]: https://arxiv.org/abs/2110.11316
-[github-repo]: https://github.com/ml-jku/cloob
+[arxiv-paper]: https://arxiv.org/
+[github-repo]: https://github.com/ml-jku/hopular
 
 [ml-blog-hopfield]: https://ml-jku.github.io/hopfield-layers/
 [ml-blog-performer]: https://ml-jku.github.io/blog-post-performer/
