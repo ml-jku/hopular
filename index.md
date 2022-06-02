@@ -440,7 +440,7 @@ Please contact us via schaefl[at]ml.jku.at
 [jekyll-talk]: https://talk.jekyllrb.com/
 
 [ml-blog]: https://ml-jku.github.io
-[arxiv-paper]: https://arxiv.org/
+[arxiv-paper]: https://arxiv.org/abs/2206.00664
 [github-repo]: https://github.com/ml-jku/hopular
 
 [ml-blog-hopfield]: https://ml-jku.github.io/hopfield-layers/
