@@ -27,6 +27,8 @@ medium-sized tabular data with about 10,000 samples, Hopular outperforms XGBoost
 art Deep Learning method designed for tabular data. Thus, Hopular is a strong alternative to these methods on tabular
 data.
 
+The full paper is available at: [https://arxiv.org/abs/2206.00664](https://arxiv.org/abs/2206.00664).
+
 ## Requirements
 
 The software was developed and tested on the following 64-bit operating systems:
